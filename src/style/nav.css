@@ -1,0 +1,40 @@
+.al{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.8s;
+    margin: 0px 2px;
+  }
+  
+  .al:hover{
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+  }
+
+
+  .logo1{
+     animation-name: move;
+     animation-timing-function: ease-in-out;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;    
+  }
+
+
+
+  @keyframes move {
+    0%{
+      filter: drop-shadow(0px 0px 20px orange);
+    }
+
+    50%{
+      filter: drop-shadow(0px 0px 30px yellow);
+    }
+    75%{
+      filter: drop-shadow(0px 0px 35px white);
+    }
+
+    100%{
+      filter: drop-shadow(0px 0px 40px red);
+    }
+  }

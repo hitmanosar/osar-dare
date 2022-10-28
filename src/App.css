@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  overflow-x: hidden;
+  background-color: black;
+}
+
+
+.up svg{
+  transition: all 0.7s;
+}
+
+
+.up svg:hover{
+  transform: scale(1.2,1.2);
+}
+
+ .als{
+  margin: 0px 10px;
+  padding: 2px;
+  border: none;
+  outline: none;
+  width: 100px;
+  border-radius: 3%;
+  background-color: white;
+  transition: all 0.8s;
+  
+}
+
+.cc{
+  transition: all 1.2s;
+}
+
+.cc:hover{
+  transform: scale(0.8,0.8) skewY(5deg);
+}
+
+.als:hover{
+   transform: scale(1.2,1.2) translateY(4px);
+   
+}
+
+.tt{
+  color: purple;
+}
+
+.ww{
+  color: rgb(100, 5, 251);
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+ul .a{
+  margin: 10px;
+  list-style-type: none;
+}
