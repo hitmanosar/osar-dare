@@ -18,6 +18,11 @@ body{
 }
 
 
+h1{
+  font-family: 'Alfa Slab One', cursive;
+}
+
+
 .up svg{
   transition: all 0.7s;
 }
@@ -54,10 +59,16 @@ body{
 
 .tt{
   color: purple;
+  font-family: 'Fredoka One', cursive;
 }
 
 .ww{
   color: rgb(100, 5, 251);
+}
+
+
+.ssa{
+  font-family: 'Alfa Slab One', cursive;
 }
 
 
