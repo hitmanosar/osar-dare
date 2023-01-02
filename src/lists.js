@@ -7,7 +7,7 @@
       director: " Tim Burton",
       language: "English",
       runtime: "1h 35min",
-      src: "https://th.bing.com/th/id/R.6105ffe497ddab5482146b1a54b42e65?rik=WSy4pU%2bpDgC8xQ&riu=http%3a%2f%2fcupofmoe.com%2fwp-content%2fuploads%2f2016%2f08%2fsleepy-hollow-53bee522e1c1e.jpg&ehk=hMunVuyH%2fA90kdDnpulpPHMGnteZNTn%2boog3QIlEKLo%3d&risl=&pid=ImgRaw&r=0",
+      src: "https://image.tmdb.org/t/p/w1280/iKqQyeOTRw4DQ0LndS2RXy1qfSx.jpg",
       type: "movie",
       popular: "true"
     },
